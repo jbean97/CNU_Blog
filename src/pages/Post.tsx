@@ -1,12 +1,9 @@
-import { useEffect, useState } from 'react';
-import { useParams, Link, useNavigate } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import styled from '@emotion/styled';
-import { deletePostById, getPostById, getPostList } from '../api';
-import { IPost } from '../api/types';
+
 import NotFound from '../components/NotFound';
 import Tag from '../components/Tag';
-import { getDepOptimizationConfig } from 'vite';
-import useGetPostList from '../queries/useGetPostList.ts';
+
 import useGetPostById from '../queries/useGetPostById.ts';
 import useDeletePostById from '../queries/useDeletePostById.ts';
 

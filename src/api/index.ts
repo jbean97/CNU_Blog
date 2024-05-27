@@ -1,4 +1,4 @@
-import axios, { AxiosPromise, AxiosResponse } from 'axios';
+import axios, { AxiosResponse } from 'axios';
 import { IPost, IResponsePostList } from './types';
 
 const instance = axios.create({
