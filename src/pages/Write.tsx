@@ -157,7 +157,6 @@ const Write = () => {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
       <div style={{ height: 'calc(100% - 4rem)', paddingBottom: '4rem' }}>
-        {/*todo (5-2) 제목 / 태그 셀렉 / 내용 입력란 추가*/}
         <TitleInput placeholder="제목을 입력하세요" value={title} onChange={handleChangeTitle} />
         <TagSelect placeholder="태그를 선택하세요" value={tag} onChange={handleChangeTag}>
           {tagList.map(tag => (
