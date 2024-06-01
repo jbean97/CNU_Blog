@@ -12,7 +12,7 @@ const Resume = () => {
         <div>jQuery를 이용하여 스터디 플레너를 구현함. react가 어렵지만 더 짱짱같아 보여요</div>
       </div>
       <div>
-        <h2>현재 평점</h2>
+        <h2>현재 평점 </h2>
         전공 3.9, 전체 3.75
       </div>
     </div>
